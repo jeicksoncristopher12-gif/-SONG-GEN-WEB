@@ -3,7 +3,7 @@ import httpx
 import time
 
 app = Flask(__name__)
-BASE_URL = "https://ai-song-generate.vercel.app"
+BASE_URL = "https://ai-song-generate-murex.vercel.app"
 
 # ---------------- Sync song generation ----------------
 def generate_song_sync(prompt, lyrics, timeout=60):
